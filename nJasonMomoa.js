@@ -1,11 +1,11 @@
 (function() {
-	//nCage 
+	//nJasonMomoma 
 	var main = function($) { 
 		
-		var self = $.nCage = new function(){};
+		var self = $.nJasonMomoa = new function(){};
 		
 		$.extend(self, {
-			nCageImgs : [
+			nJasonMomoa : [
 			'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Jason_Momoa_Supercon_2014.jpg/170px-Jason_Momoa_Supercon_2014.jpg',
 			'http://cdn.skim.gs/image/upload/v1492183800/Jason-Momoa-short-hair-2_cr3gjw.jpg',
 			'https://media1.popsugar-assets.com/files/thumbor/kaxBIyNB-NI8Q8c0q4k8kSTnip0/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2016/04/27/022/n/1922398/3256f55c_edit_img_image_41010616_1461527700/i/Shirtless-Jason-Momoa-Pictures.png',
@@ -69,7 +69,7 @@
 
 		//Run on jQuery ready
 		$(function(){
-			self.handleImages(self.nCageImgs, 3000);
+			self.handleImages(self.nJasonMomoa, 3000);
 		});
 	};
 
